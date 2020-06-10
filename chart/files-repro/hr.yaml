@@ -1,0 +1,9 @@
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: files-repro
+spec:
+  releaseName: files-repro
+  chart:
+    git: ssh://git@github.com/carlpett/helm-operator
+    path: chart/files-repro
