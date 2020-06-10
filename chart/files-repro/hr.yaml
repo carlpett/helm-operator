@@ -5,5 +5,6 @@ metadata:
 spec:
   releaseName: files-repro
   chart:
-    git: ssh://git@github.com/carlpett/helm-operator
+    git: git@github.com:carlpett/helm-operator.git
     path: chart/files-repro
+    ref: files-repro
